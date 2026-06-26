@@ -8,6 +8,6 @@ class Solution:
             rev=rev*10+digit
             res//=10
         rev*=sign
-        if rev<-2**31 or rev>2**31:
+        if rev<-2**31 or rev>2**31-1:
             return 0
         return rev
